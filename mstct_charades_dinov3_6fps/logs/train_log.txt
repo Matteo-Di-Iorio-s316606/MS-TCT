@@ -1,0 +1,4 @@
+[RESUME] No checkpoint found, starting from scratch.
+
+Epoch 0/49
+----------

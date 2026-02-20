@@ -1,0 +1,20 @@
+python train.py \
+  -gpu 0 \
+  -dataset charades \
+  -mode rgb \
+  -model MS_TCT \
+  -train True \
+  -rgb_root "/srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-Temba/data/hf_features/Temporal_Action_Detection/charades_dinov3_vitl16_w16_6fps" \
+  -num_clips 16 \
+  -skip 0 \
+  -lr 1e-4 \
+  -epoch 50 \
+  -unisize True \
+  -alpha_l 1 \
+  -beta_l 0.05 \
+  -batch_size 32 \
+  --ckpt_every 1 \
+  --resume True \
+  --exp_name mstct_charades_dinov3_6fps \
+  --out_dir "/srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs" \
+  --save_best_only False

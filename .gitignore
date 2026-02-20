@@ -1,0 +1,22 @@
+cat > .gitignore <<'EOF'
+# --- training artifacts ---
+runs/
+save_logit/
+checkpoints/
+best/
+*.pt
+*.pth
+*.pkl
+
+# --- logs / outputs ---
+*.log
+*.csv
+
+# --- python ---
+__pycache__/
+*.pyc
+
+# --- data / features (adjust if needed) ---
+data/
+hf_features/
+EOF
