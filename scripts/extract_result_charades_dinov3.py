@@ -1,7 +1,8 @@
+#!/usr/bin/env python
 import pandas as pd
 from pathlib import Path
 
-p = Path("runs/mstct_charades_dinov3_6fps/logs/train_log.csv")
+p = Path("runs_256/mstct_charades_dinov3_24fps/logs/train_log.csv")
 df = pd.read_csv(p)
 
 # Best epoch (massimo val_map)

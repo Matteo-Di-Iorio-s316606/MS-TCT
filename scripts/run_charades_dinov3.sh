@@ -4,8 +4,8 @@ python train.py \
   -mode rgb \
   -model MS_TCT \
   -train True \
-  -rgb_root "/srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-Temba/data/hf_features/Temporal_Action_Detection/charades_dinov3_vitl16_w16_6fps" \
-  -num_clips 16 \
+  -rgb_root "/srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-Temba/data/hf_features/Temporal_Action_Detection/charades_dinov3_vitl16_w16_24fps" \
+  -num_clips 256 \
   -skip 0 \
   -lr 1e-4 \
   -epoch 50 \
@@ -15,6 +15,6 @@ python train.py \
   -batch_size 32 \
   --ckpt_every 1 \
   --resume True \
-  --exp_name mstct_charades_dinov3_6fps \
-  --out_dir "/srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs" \
+  --exp_name mstct_charades_dinov3_24fps \
+  --out_dir "/srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256" \
   --save_best_only False

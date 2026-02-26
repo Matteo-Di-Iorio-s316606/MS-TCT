@@ -1,0 +1,315 @@
+[RESUME] No checkpoint found, starting from scratch.
+
+Epoch 0/49
+----------
+epoch 0 Total_Time 75.07 Epoch_time 75.07
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_000.pt
+[BEST] epoch 0 Best Val Map Update 4.1024
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/0.pkl
+
+Epoch 1/49
+----------
+epoch 1 Total_Time 178.03 Epoch_time 69.32
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_001.pt
+[BEST] epoch 1 Best Val Map Update 8.5865
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/1.pkl
+
+Epoch 2/49
+----------
+epoch 2 Total_Time 283.66 Epoch_time 71.38
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_002.pt
+[BEST] epoch 2 Best Val Map Update 12.7643
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/2.pkl
+
+Epoch 3/49
+----------
+epoch 3 Total_Time 389.62 Epoch_time 71.62
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_003.pt
+[BEST] epoch 3 Best Val Map Update 16.0540
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/3.pkl
+
+Epoch 4/49
+----------
+epoch 4 Total_Time 495.97 Epoch_time 72.07
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_004.pt
+[BEST] epoch 4 Best Val Map Update 18.3871
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/4.pkl
+
+Epoch 5/49
+----------
+epoch 5 Total_Time 601.56 Epoch_time 71.37
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_005.pt
+[BEST] epoch 5 Best Val Map Update 19.7826
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/5.pkl
+
+Epoch 6/49
+----------
+epoch 6 Total_Time 707.30 Epoch_time 71.37
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_006.pt
+[BEST] epoch 6 Best Val Map Update 21.3081
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/6.pkl
+
+Epoch 7/49
+----------
+epoch 7 Total_Time 813.33 Epoch_time 71.71
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_007.pt
+[BEST] epoch 7 Best Val Map Update 22.4010
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/7.pkl
+
+Epoch 8/49
+----------
+epoch 8 Total_Time 919.15 Epoch_time 71.57
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_008.pt
+[BEST] epoch 8 Best Val Map Update 24.0288
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/8.pkl
+
+Epoch 9/49
+----------
+epoch 9 Total_Time 1024.94 Epoch_time 71.51
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_009.pt
+[BEST] epoch 9 Best Val Map Update 24.3914
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/9.pkl
+
+Epoch 10/49
+----------
+epoch 10 Total_Time 1130.58 Epoch_time 71.31
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_010.pt
+[BEST] epoch 10 Best Val Map Update 24.8967
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/10.pkl
+
+Epoch 11/49
+----------
+epoch 11 Total_Time 1236.98 Epoch_time 72.15
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_011.pt
+[BEST] epoch 11 Best Val Map Update 25.5530
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/11.pkl
+
+Epoch 12/49
+----------
+epoch 12 Total_Time 1343.18 Epoch_time 71.95
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_012.pt
+[BEST] epoch 12 Best Val Map Update 25.5634
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/12.pkl
+
+Epoch 13/49
+----------
+epoch 13 Total_Time 1449.12 Epoch_time 71.66
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_013.pt
+[BEST] epoch 13 Best Val Map Update 25.8703
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/13.pkl
+
+Epoch 14/49
+----------
+epoch 14 Total_Time 1555.37 Epoch_time 71.97
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_014.pt
+
+Epoch 15/49
+----------
+epoch 15 Total_Time 1646.72 Epoch_time 71.22
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_015.pt
+[BEST] epoch 15 Best Val Map Update 26.7875
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/15.pkl
+
+Epoch 16/49
+----------
+epoch 16 Total_Time 1752.92 Epoch_time 71.79
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_016.pt
+
+Epoch 17/49
+----------
+epoch 17 Total_Time 1845.03 Epoch_time 71.96
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_017.pt
+
+Epoch 18/49
+----------
+epoch 18 Total_Time 1937.70 Epoch_time 72.51
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_018.pt
+[BEST] epoch 18 Best Val Map Update 26.8907
+[BEST] Saved best model weights -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_model.pt
+[BEST] Saved best checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/best/best_checkpoint.pt
+[BEST] logit_saved at: /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/save_logit/18.pkl
+
+Epoch 19/49
+----------
+epoch 19 Total_Time 2043.60 Epoch_time 71.64
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_019.pt
+
+Epoch 20/49
+----------
+epoch 20 Total_Time 2135.54 Epoch_time 71.77
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_020.pt
+
+Epoch 21/49
+----------
+epoch 21 Total_Time 2228.17 Epoch_time 72.47
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_021.pt
+
+Epoch 22/49
+----------
+epoch 22 Total_Time 2321.89 Epoch_time 73.56
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_022.pt
+
+Epoch 23/49
+----------
+epoch 23 Total_Time 2413.94 Epoch_time 71.89
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_023.pt
+
+Epoch 24/49
+----------
+epoch 24 Total_Time 2506.90 Epoch_time 72.82
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_024.pt
+
+Epoch 25/49
+----------
+epoch 25 Total_Time 2598.57 Epoch_time 71.53
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_025.pt
+
+Epoch 26/49
+----------
+epoch 26 Total_Time 2690.72 Epoch_time 72.01
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_026.pt
+
+Epoch 27/49
+----------
+epoch 27 Total_Time 2782.64 Epoch_time 71.78
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_027.pt
+
+Epoch 28/49
+----------
+epoch 28 Total_Time 2875.94 Epoch_time 73.15
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_028.pt
+
+Epoch 29/49
+----------
+epoch 29 Total_Time 2968.54 Epoch_time 72.47
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_029.pt
+
+Epoch 30/49
+----------
+epoch 30 Total_Time 3061.59 Epoch_time 72.81
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_030.pt
+
+Epoch 31/49
+----------
+epoch 31 Total_Time 3153.65 Epoch_time 71.92
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_031.pt
+
+Epoch 32/49
+----------
+epoch 32 Total_Time 3246.14 Epoch_time 72.35
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_032.pt
+
+Epoch 33/49
+----------
+epoch 33 Total_Time 3338.30 Epoch_time 72.04
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_033.pt
+
+Epoch 34/49
+----------
+epoch 34 Total_Time 3430.55 Epoch_time 72.10
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_034.pt
+
+Epoch 35/49
+----------
+epoch 35 Total_Time 3523.21 Epoch_time 72.51
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_035.pt
+
+Epoch 36/49
+----------
+epoch 36 Total_Time 3615.25 Epoch_time 71.88
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_036.pt
+
+Epoch 37/49
+----------
+epoch 37 Total_Time 3707.73 Epoch_time 72.31
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_037.pt
+
+Epoch 38/49
+----------
+epoch 38 Total_Time 3799.88 Epoch_time 71.99
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_038.pt
+
+Epoch 39/49
+----------
+epoch 39 Total_Time 3892.08 Epoch_time 72.06
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_039.pt
+
+Epoch 40/49
+----------
+epoch 40 Total_Time 3984.14 Epoch_time 71.92
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_040.pt
+
+Epoch 41/49
+----------
+epoch 41 Total_Time 4076.18 Epoch_time 71.87
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_041.pt
+
+Epoch 42/49
+----------
+epoch 42 Total_Time 4168.49 Epoch_time 72.05
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_042.pt
+
+Epoch 43/49
+----------
+epoch 43 Total_Time 4260.30 Epoch_time 71.65
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_043.pt
+
+Epoch 44/49
+----------
+epoch 44 Total_Time 4352.53 Epoch_time 72.05
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_044.pt
+
+Epoch 45/49
+----------
+epoch 45 Total_Time 4444.73 Epoch_time 72.01
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_045.pt
+
+Epoch 46/49
+----------
+epoch 46 Total_Time 4537.34 Epoch_time 72.43
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_046.pt
+
+Epoch 47/49
+----------
+epoch 47 Total_Time 4629.60 Epoch_time 72.09
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_047.pt
+
+Epoch 48/49
+----------
+epoch 48 Total_Time 4721.35 Epoch_time 71.62
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_048.pt
+
+Epoch 49/49
+----------
+epoch 49 Total_Time 4814.27 Epoch_time 72.79
+[CKPT] Saved epoch checkpoint -> /srv/storage/stars@storage3.sophia./mdiiorio/masters-thesis/Traineeship/MS-TCT/runs_256/mstct_charades_dinov3_24fps/checkpoints/epoch_049.pt
