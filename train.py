@@ -90,7 +90,15 @@ if args.dataset == 'charades':
     rgb_root = args.rgb_root
     flow_root = args.flow_root  # optional
     classes = 157
+elif args.dataset == 'cap':
+    from cap_dataloader import CAP as Dataset
+    from cap_dataloader import mt_collate_fn as collate_fn
 
+    train_split = "./data/cap_val.txt"
+    test_split = train_split
+    rgb_root = args.rgb_root
+    flow_root = args.flow_root
+    classes = 202
 
 # -----------------------------
 # Run dirs / logging / checkpoints
@@ -204,13 +212,24 @@ def run_network(model, data, gpu, epoch=0, baseline=False):
 
     inputs = inputs.squeeze(3).squeeze(3)
 
+    # CAP/Charades: inputs arriva come (B, T, D). Conv1d vuole (B, D, T).
+    if inputs.dim() == 3:
+        inputs = inputs.permute(0, 2, 1).contiguous()
+
     outputs_final, out_hm = model(inputs)
 
     probs_f = torch.sigmoid(outputs_final) * mask.unsqueeze(2)
 
-    loss_h = focal_loss(out_hm, hm)
-    loss_f = F.binary_cross_entropy_with_logits(outputs_final, labels, size_average=False)
+    # classification loss
+    loss_f = F.binary_cross_entropy_with_logits(outputs_final, labels, reduction="sum")
     loss_f = torch.sum(loss_f) / torch.sum(mask)
+
+    # heatmap loss (optional)
+    if float(args.beta_l) > 0:
+        loss_h = focal_loss(out_hm, hm)
+    else:
+        loss_h = torch.tensor(0.0, device=outputs_final.device)
+
     loss = args.alpha_l * loss_f + args.beta_l * loss_h
 
     corr = torch.sum(mask)
@@ -276,8 +295,18 @@ def val_step(model, gpu, dataloader, epoch, print_ap=False):
         tot_loss += loss.data
 
         probs_1 = mask_probs(probs.data.cpu().numpy()[0], data[1].numpy()[0]).squeeze()
-        full_probs[other[0][0]] = probs_1.T
+        
+        # ---- robust key extraction ----
+        key = other
+        # unwrap liste annidate fino a trovare qualcosa di hashabile
+        while isinstance(key, list) and len(key) > 0:
+            key = key[0]
 
+        # se è ancora lista o None, fallback
+        if isinstance(key, list) or key is None:
+            key = f"sample_{int(num_iter)}"
+
+        full_probs[str(key)] = probs_1.T
     epoch_loss = tot_loss / max(num_iter, 1.0)
 
     # FULL VAL MAP (robust)
@@ -485,3 +514,58 @@ if __name__ == '__main__':
             save_best_only=bool(args.save_best_only),
             print_ap_every=int(args.print_ap_every),
         )
+    else:
+        # EVAL-ONLY
+        if args.model == "MS_TCT":
+            from MSTCT.MSTCT_Model import MSTCT
+
+            num_classes = classes
+            inter_channels = [256, 384, 576, 864]
+            num_block = 3
+            head = 8
+            mlp_ratio = 8
+            in_feat_dim = 1024
+            final_embedding_dim = 512
+
+            rgb_model = MSTCT(inter_channels, num_block, head, mlp_ratio, in_feat_dim, final_embedding_dim, num_classes)
+        else:
+            raise ValueError("Unknown model: " + str(args.model))
+
+        rgb_model.cuda(GPU_ID)
+        rgb_model.eval()
+
+        # carica checkpoint (OBBLIGATORIO in eval-only)
+        # qui decidi tu: best_checkpoint.pt o last.pt ecc.
+        ckpt_path = os.path.join(ckpt_dir, "last.pt")
+        print("[EVAL] Loading checkpoint:", ckpt_path)
+
+        ckpt = torch.load(ckpt_path, map_location="cpu")
+        sd = ckpt["model_state"]
+
+        # 1) rimuovi i layer che cambiano dimensione (157 -> 202)
+        drop_prefixes = [
+            "Classfication_Module.linear_pred.",  # classifier
+            "Classfication_Module.hm.",           # heatmap head
+        ]
+
+        sd_filtered = {}
+        dropped = []
+        for k, v in sd.items():
+            if any(k.startswith(p) for p in drop_prefixes):
+                dropped.append(k)
+                continue
+            sd_filtered[k] = v
+
+        print(f"[EVAL] filtered state_dict: kept={len(sd_filtered)} dropped={len(dropped)}")
+        if dropped:
+            print("[EVAL] dropped keys sample:", dropped[:10])
+
+        missing, unexpected = rgb_model.load_state_dict(sd_filtered, strict=False)
+        print("[EVAL] load_state_dict(strict=False) ok")
+        print("[EVAL] missing keys:", len(missing))
+        print("[EVAL] unexpected keys:", len(unexpected))
+       
+        # solo validation
+        do_print_ap = True
+        prob_val, val_loss, val_map = val_step(rgb_model, GPU_ID, dataloaders['val'], epoch=0, print_ap=do_print_ap)
+        print("[EVAL] val_loss:", float(val_loss), "val_map:", float(val_map))
